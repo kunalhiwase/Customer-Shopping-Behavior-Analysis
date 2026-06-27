@@ -94,7 +94,7 @@ The dashboard tracks:
 - Sales Trends
 # Dashboard
 
-![Dashboard](Dashboard%20snap.png)
+![Dashboard](Dashboard%20Snap.png)
 
 
 ## Key Insights
