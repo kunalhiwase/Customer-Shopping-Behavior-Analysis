@@ -92,6 +92,9 @@ The dashboard tracks:
 - Customer Segments
 - Subscription Distribution
 - Sales Trends
+# Dashboard
+
+![Dashboard](Dashboard%20snap.png)
 
 
 ## Key Insights
