@@ -1,124 +1,187 @@
-# Customer Shopping Behavior Analysis
+# 🛍️ Customer Shopping Behavior Analysis
 
-## Overview
+## 📌 Overview
 
-This project analyzes retail customer transaction data to understand purchasing patterns, customer segments, product performance, and factors affecting customer retention.
+This project analyzes retail customer shopping behavior to uncover purchasing patterns, customer segments, product performance, and factors influencing customer retention. The objective is to transform raw transactional data into actionable business insights that support data-driven decision-making in marketing, sales, and customer relationship management.
 
-The analysis converts raw customer data into business insights that can support decisions related to marketing strategy, customer engagement, and product planning.
+The project follows a complete analytics workflow involving data cleaning in Excel Power Query, business analysis using MySQL, and interactive dashboard development in Power BI.
 
-## Tech Stack
+---
 
-- Excel Power Query - Data cleaning and transformation
-- MySQL - Data analysis and querying
-- Power BI - Dashboard development and visualization
+## 🚀 Live Dashboard
 
-## Dataset
+🔗 **Power BI Dashboard**
 
-The dataset contains 3,900 customer purchase records with 18 attributes covering:
+https://app.powerbi.com/view?r=eyJrIjoiN2RmNTg4MDktNTU1Zi00YzU3LWIxZWQtYjc3MzIzYjUzMmVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
 
-- Customer demographics
-- Purchase details
-- Product categories
-- Subscription information
-- Discounts and promotions
-- Customer reviews
-- Purchase frequency
+---
 
-## Workflow
+## 🛠️ Tech Stack
 
-Raw Data  
-↓  
-Excel Power Query (Data Preparation)  
-↓  
-MySQL (Business Analysis)  
-↓  
-Power BI (Dashboard & Insights)
+- **Excel Power Query** – Data Cleaning & Transformation
+- **MySQL** – Business Analysis & SQL Queries
+- **Power BI** – Interactive Dashboard & Visualization
 
+---
 
-## Data Preparation
+## 📂 Dataset
 
-The dataset was cleaned and transformed using Excel Power Query before analysis.
+The dataset contains approximately **3,900 customer purchase records** with **18 attributes**, including:
 
-Major steps included:
+- Customer Demographics
+- Purchase Amount
+- Product Categories
+- Subscription Status
+- Discounts Applied
+- Promotional Offers
+- Product Ratings
+- Purchase Frequency
+- Payment Methods
+- Shipping Types
 
-- Data quality validation
-- Missing value treatment
-- Data type corrections
-- Column standardization
-- Feature creation for analysis
+---
 
-Additional features created:
+## 🔄 Analytics Workflow
+
+```
+Raw Dataset
+      │
+      ▼
+Excel Power Query
+(Data Cleaning & Transformation)
+      │
+      ▼
+MySQL
+(Business Analysis)
+      │
+      ▼
+Power BI
+(Interactive Dashboard)
+```
+
+---
+
+## 🧹 Data Preparation
+
+The raw dataset was transformed using **Excel Power Query** to improve data quality and prepare it for analysis.
+
+### Cleaning Steps
+
+- Removed duplicate records
+- Validated missing values
+- Corrected data types
+- Standardized column names
+- Fixed inconsistent values
+- Created derived analytical fields
+
+### Features Created
 
 - Age Group
-- Purchase Frequency Days
 - Customer Segment
+- Purchase Frequency (Days)
 
+---
 
-## SQL Analysis
+## 🗄️ SQL Business Analysis
 
-MySQL was used to answer key business questions:
+Business questions answered using **MySQL** include:
 
-1. Revenue comparison between male and female customers
+- Revenue comparison between male and female customers
+- High-value customers based on spending patterns
+- Products with the highest customer ratings
+- Impact of shipping methods on purchase behavior
+- Subscription vs Non-subscription customer spending
+- Products with high discount dependency
+- Customer segmentation based on purchase history
+- Best-performing products within each category
+- Relationship between repeat purchases and subscriptions
+- Revenue contribution by different age groups
 
-2. Identification of high-value customers using discounts
+---
 
-3. Top products based on customer review ratings
+## 📊 Dashboard
 
-4. Purchase behavior comparison across shipping methods
+The Power BI dashboard provides an interactive overview of customer shopping behavior through multiple KPIs and visualizations.
 
-5. Impact of subscription status on spending
-
-6. Products with higher discount dependency
-
-7. Customer segmentation based on purchase history
-
-8. Top-performing products within each category
-
-9. Relationship between repeat purchases and subscriptions
-
-10. Revenue contribution across age groups
-
-
-## Dashboard
-
-A Power BI dashboard was created to present the analysis results.
-
-The dashboard tracks:
+### Dashboard KPIs
 
 - Total Customers
 - Average Purchase Amount
-- Average Review Rating
-- Revenue by Category
-- Customer Segments
-- Subscription Distribution
-- Sales Trends
-# Dashboard
+- Average Customer Rating
+- Total Revenue
+- Subscription Rate
+
+### Dashboard Visualizations
+
+- Revenue by Product Category
+- Customer Segment Distribution
+- Subscription Analysis
+- Purchase Trends
+- Age Group Analysis
+- Customer Rating Distribution
+- Payment Method Analysis
+- Discount Impact
+- Product Performance
+
+---
+
+# 📷 Dashboard Preview
 
 ![Dashboard](Dashboard%20Snap.png)
 
+---
 
-## Key Insights
+## 💡 Key Business Insights
 
-- Customer segments showed different spending behaviors and revenue contributions.
-- Certain products had stronger dependency on discounts.
-- Purchase history helped identify loyal and repeat customers.
-- Product ratings and category performance provided opportunities for targeted promotions.
-- Customer demographics helped identify valuable customer groups.
+- Customer segments exhibit significantly different purchasing behaviors and spending patterns.
+- Subscription customers contribute higher long-term revenue compared to non-subscribers.
+- Certain product categories rely heavily on discounts to generate sales.
+- Customer ratings help identify top-performing products with higher retention potential.
+- Purchase frequency reveals loyal customer groups suitable for personalized marketing.
+- Demographic analysis highlights high-value customer segments for targeted campaigns.
+- Product category performance provides opportunities for inventory and pricing optimization.
 
+---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 Customer-Shopping-Behavior-Analysis
-
-├── Dataset
-├── Excel Files
-├── SQL Queries
-├── Power BI Dashboard
-├── Reports
+│
+├── Dataset/
+├── Excel Files/
+├── SQL Queries/
+├── Power BI Dashboard/
+├── Reports/
+├── Dashboard Snap.png
 └── README.md
 ```
 
-## Conclusion
+---
 
-The project demonstrates an end-to-end analytics process from data preparation to business reporting. The final dashboard and analysis provide insights that can help improve customer targeting, promotional strategies, and customer retention.
+## 🎯 Business Value
+
+This project demonstrates how retail organizations can leverage analytics to:
+
+- Improve customer retention strategies
+- Optimize promotional campaigns
+- Identify high-value customer segments
+- Monitor product performance
+- Support data-driven marketing decisions
+- Enhance customer experience through actionable insights
+
+---
+
+## 📌 Conclusion
+
+This project showcases an end-to-end Business Intelligence workflow, beginning with raw retail data and progressing through data cleaning, SQL-based business analysis, and interactive Power BI reporting. The resulting dashboard enables stakeholders to monitor customer behavior, evaluate business performance, and make informed strategic decisions backed by data.
+
+---
+
+## 👤 Author
+
+**Kunal Hiwase**
+
+- 💼 Business Analyst
+- 📊 SQL | Excel | Power BI | Python
+- 📈 Business Intelligence & Data Analytics 
